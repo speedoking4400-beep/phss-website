@@ -1,102 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
+<title>Progressive Higher Secondary School Udaipura</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Progressive Higher Secondary School, Udaipura</title>
-
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
-body{line-height:1.6;color:#333;}
-header{background:#0b3d91;color:white;padding:15px 8%;position:sticky;top:0;}
-nav{display:flex;justify-content:space-between;align-items:center;}
-nav ul{list-style:none;display:flex;}
-nav ul li{margin-left:20px;}
-nav ul li a{color:white;text-decoration:none;}
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f6f9;
+}
+
+header{
+background:#0b3d91;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#062a63;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
 .hero{
-height:90vh;
-background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');
-background-size:cover;
-background-position:center;
-display:flex;flex-direction:column;justify-content:center;align-items:center;
-text-align:center;color:white;padding:20px;
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(to right,#0b3d91,#1e5bbf);
+color:white;
 }
-.hero h1{font-size:40px;margin-bottom:15px;}
-.hero button{padding:12px 30px;background:#f39c12;border:none;color:white;cursor:pointer;}
-section{padding:60px 8%;}
-.section-title{text-align:center;margin-bottom:30px;color:#0b3d91;}
-.features,.gallery{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
-.feature-box,.gallery img{
-background:#f4f6f9;padding:20px;width:250px;border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,0.08);text-align:center;
+
+.section{
+padding:50px 20px;
+text-align:center;
 }
-.gallery img{padding:0;height:170px;object-fit:cover;}
-footer{background:#0b3d91;color:white;text-align:center;padding:20px;}
+
+.btn{
+background:#0b3d91;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+display:inline-block;
+margin-top:10px;
+}
+
+footer{
+background:#062a63;
+color:white;
+text-align:center;
+padding:15px;
+}
 </style>
 </head>
 
 <body>
 
 <header>
-<nav>
-<h2>PHSS Udaipura</h2>
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#academics">Academics</a></li>
-<li><a href="#gallery">Gallery</a></li>
-<li><a href="result.html">Results</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
+<h1>Progressive Higher Secondary School</h1>
+<p>Udaipura</p>
 </header>
 
-<section class="hero">
-<h1>Progressive Higher Secondary School</h1>
-<p>Excellence in Education & Character Building</p>
-<button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
-Contact Us
-</button>
-</section>
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#admission">Admission</a>
+<a href="result.html">Result</a>
+<a href="#contact">Contact</a>
+</nav>
 
-<section id="about">
-<h2 class="section-title">About Our School</h2>
-<p style="text-align:center;max-width:800px;margin:auto;">
-Progressive Higher Secondary School, Udaipura is dedicated to academic excellence,
-discipline and overall personality development of students.
-</p>
-</section>
-
-<section id="academics">
-<h2 class="section-title">Academics & Facilities</h2>
-<div class="features">
-<div class="feature-box"><h3>Qualified Teachers</h3></div>
-<div class="feature-box"><h3>Science & Computer Labs</h3></div>
-<div class="feature-box"><h3>Sports Activities</h3></div>
-<div class="feature-box"><h3>Senior Secondary (11-12)</h3></div>
+<div class="hero">
+<h2>Welcome to PHSS Udaipura</h2>
+<p>Quality Education for Bright Future</p>
+<a href="#admission" class="btn">Apply Now</a>
 </div>
-</section>
 
-<section id="gallery">
-<h2 class="section-title">School Gallery</h2>
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914">
-<img src="https://images.unsplash.com/photo-1509062522246-3755977927d7">
-<img src="https://images.unsplash.com/photo-1577896851231-70ef18881754">
+<div class="section" id="about">
+<h2>About Us</h2>
+<p>Progressive Higher Secondary School Udaipura provides quality education with discipline and excellence.</p>
 </div>
-</section>
 
-<section id="contact">
-<h2 class="section-title">Contact Us</h2>
-<p style="text-align:center;">
-📍 Udaipura, Madhya Pradesh<br><br>
-📞 +91 9XXXXXXXXX<br><br>
-✉ phssudaipura@gmail.com
-</p>
-</section>
+<div class="section" id="admission">
+<h2>Admission Open</h2>
+<p>Admissions are open for all classes. Contact school office for more details.</p>
+<a href="#" class="btn">Get Admission</a>
+</div>
+
+<div class="section" id="contact">
+<h2>Contact Us</h2>
+<p>Email: phssudaipura@gmail.com</p>
+<p>Phone: +91 XXXXX XXXXX</p>
+</div>
 
 <footer>
-© 2026 Progressive Higher Secondary School, Udaipura
+© 2026 Progressive Higher Secondary School Udaipura | All Rights Reserved
 </footer>
 
 </body>
